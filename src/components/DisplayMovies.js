@@ -5,7 +5,7 @@ import SearchBar from "./Searchbar";
 import axios from "axios";
 require("dotenv").config();
 
-const BASE_URL = `http://www.omdbapi.com/?apikey=${process.env.OMDB_KEY}&page=1&s=`;
+const BASE_URL = `https://tranquil-hollows-67389.herokuapp.com/api/movie/`;
 
 const Grid = styled.div`
   display: grid;

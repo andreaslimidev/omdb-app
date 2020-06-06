@@ -4,7 +4,7 @@ import axios from "axios";
 import styled from "styled-components";
 require("dotenv").config();
 
-const BASE_URL = `http://www.omdbapi.com/?apikey=${process.env.OMDB_KEY}&i=`;
+const BASE_URL = `https://tranquil-hollows-67389.herokuapp.com/api/movie/single/`;
 const Container = styled.div`
   display: flex;
   width: 100%;
